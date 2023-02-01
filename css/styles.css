@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,8 +24,21 @@ p {
     line-height: 1.5;
 }
 
+/* Containers */
+
 .container-fluid {
     padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #FF4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -57,14 +71,9 @@ p {
 
 /* Title  Section*/
 
-#title {
-    background-color: #FF4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .title-image {
@@ -77,17 +86,12 @@ p {
 /* features */
 
 #features {
-    background-color: #fff;
     position: relative;
     z-index: 1;
 }
 
- .feature-title {
+.feature-title {
     font-size: 1.5rem;
- }
-
-.one-feature {
-    text-align: center;
 }
 
 .one-feature p {
@@ -100,15 +104,13 @@ p {
 }
 
 .feature-icon:hover {
-    color: #FF4c68;;
+    color: #FF4c68;
 }
 
 /* Testimonials Section */
 
 #testimonials {
-    text-align: center;
     background-color: #EF8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -126,7 +128,6 @@ p {
 
 #press {
     background-color: #EF8172;
-    text-align: center;
     margin-bottom: 3%;
 }
 
@@ -139,7 +140,6 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .price-dog {
@@ -157,17 +157,7 @@ p {
 
 /* CTA Section */
 
-#cta {
-    background-color: #EF8172;
-    color: #fff;
-    text-align: center;
-}
-
 /* Footer Section */
-
-#footer {
-    text-align: center;
-}
 
 .social-icon {
     margin: 20px 10px;
