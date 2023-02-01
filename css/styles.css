@@ -2,35 +2,29 @@ body {
     font-family: 'Montserrat';
 }
 
-
-h1 { 
-    font-family: 'Montserrat-Black', sans-serif;      
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
     font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
     font-size: 3rem;
     line-height: 1.5;
 }
 
-h3 {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-#title {
-    background-color: #FF4c68;
-    color: #fff;
-}
-
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -61,6 +55,18 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
+/* Title  Section*/
+
+#title {
+    background-color: #FF4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 .title-image {
     width: 60%;
     transform: rotate(25deg);
@@ -68,15 +74,17 @@ h3 {
     right: 30%;
 }
 
-
 /* features */
 
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
 }
+
+ .feature-title {
+    font-size: 1.5rem;
+ }
 
 .one-feature {
     text-align: center;
@@ -103,13 +111,15 @@ h3 {
     color: #fff;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-}
-.carousel-item {
-    padding: 7% 15%;
 }
 
 /* Press Section */
@@ -132,6 +142,15 @@ h3 {
     text-align: center;
 }
 
+.price-dog {
+    font-size: 1.5rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .pricing-column {
     padding: 3% 2%;
 }
@@ -141,22 +160,12 @@ h3 {
 #cta {
     background-color: #EF8172;
     color: #fff;
-    padding: 7% 15%;
     text-align: center;
 }
-
-.cta-heading {
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
 
 /* Footer Section */
 
 #footer {
-    padding: 7% 15%;
     text-align: center;
 }
 
